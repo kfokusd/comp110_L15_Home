@@ -1,0 +1,37 @@
+The success of Python rests on a rich ecosystem of first- and third-party software. 
+Python benefits from both a strong standard library and a generous assortment of easily 
+obtained and readily used libraries from third-party developers. Python has been 
+enriched by decades of expansion and contribution.
+Python’s standard library provides modules for common programming tasks—math, string 
+handling, file and directory access, networking, asynchronous operations, threading, 
+multiprocess management, and so on. But it also includes modules that manage common, 
+high-level programming tasks needed by modern applications: reading and writing 
+structured file formats like JSON and XML, manipulating compressed files, working with 
+internet protocols and data formats (webpages, URLs, email). Most any external code that 
+exposes a C-compatible foreign function interface can be accessed with Python’s ctypes 
+module.
+The default Python distribution also provides a rudimentary, but useful, cross-platform 
+GUI library via Tkinter, and an embedded copy of the SQLite 3 database.
+The thousands of third-party libraries, available through the Python Package Index 
+(PyPI), constitute the strongest showcase for Python’s popularity and versatility.
+
+Like C#, Java, and Go, Python has garbage-collected memory management, meaning the 
+programmer doesn’t have to implement code to track and release objects. Normally, 
+garbage collection happens automatically in the background, but if that poses a 
+performance problem, you can trigger it manually or disable it entirely, or declare 
+whole regions of objects exempt from garbage collection as a performance enhancement.
+An important aspect of Python is its dynamism. Everything in the language, including 
+functions and modules themselves, are handled as objects. This comes at the expense of 
+speed (more on that later), but makes it far easier to write high-level code. Developers 
+can perform complex object manipulations with only a few instructions, and even treat 
+parts of an application as abstractions that can be altered if needed.
+Python’s use of significant whitespace has been cited as both one of Python’s best and 
+worst attributes. The indentation on the second line below isn’t just for readability; 
+it is part of Python’s syntax. Python interpreters will reject programs that don’t use 
+proper indentation to indicate control flow.
+
+However, over the past few years, Python has emerged as a first-class citizen in modern 
+software development, infrastructure management, and data analysis. It is no longer a 
+back-room utility language, but a major force in web application creation and systems 
+management, and a key driver of the explosion in big data analytics and machine 
+intelligence.
